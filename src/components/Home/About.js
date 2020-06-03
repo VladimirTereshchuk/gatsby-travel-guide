@@ -4,6 +4,7 @@ import styles from "../../css/about.module.css"
 // import img from "../../images/defaultBcg.jpeg"
 import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
+import AniLink from "gatsby-plugin-transition-link/AniLink"
 
 const About = () => {
   const { aboutImage } = useStaticQuery(graphql`
@@ -42,7 +43,9 @@ const About = () => {
             ipsam, id perferendis optio fugit distinctio culpa magni aspernatur
             dolorum ea.
           </p>
-          <button className="btn-primary">Read more</button>
+          <AniLink fade to="/about" className="btn-primary">
+            read more
+          </AniLink>
         </article>
       </div>
     </section>
