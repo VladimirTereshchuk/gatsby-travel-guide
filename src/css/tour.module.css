@@ -69,6 +69,7 @@
 }
 .icon {
   margin-right: 0.4rem;
+  font-size: 1.5rem;
 }
 .details {
   color: var(--darkGrey);

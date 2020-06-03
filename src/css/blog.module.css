@@ -5,18 +5,27 @@
   width: 80vw;
   margin: 3rem auto;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   grid-column-gap: 2rem;
   grid-row-gap: 2rem;
 }
-.links {
+/* .center {
   width: 80vw;
-  margin: 0 auto 5rem auto;
+  margin: 3rem auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+} */
+.links {
+  /* border: 1px solid red; */
+  max-width: 80vw;
+  margin: 0 auto 5rem auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .link {
+  /* border: 1px solid red; */
   text-transform: uppercase;
   letter-spacing: var(--mainSpacing);
   background: var(--primaryColor);
@@ -27,6 +36,7 @@
   display: inline-block;
   transition: var(--mainTransition);
   cursor: pointer;
+  margin: 0.2rem;
 }
 .link:hover {
   background: transparent;

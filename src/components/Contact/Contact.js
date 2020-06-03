@@ -8,14 +8,16 @@ const Contact = () => {
       <div className={styles.center}>
         <form className={styles.form}>
           <div>
-            <label htmlFor="name">name</label>
-            <input
-              type="text"
-              name="name"
-              id="name"
-              className={styles.formControl}
-              placeholder="john smith"
-            />
+            <label htmlFor="name">
+              name
+              <input
+                type="text"
+                name="name"
+                id="name"
+                className={styles.formControl}
+                placeholder="john smith"
+              />
+            </label>
           </div>
           <div>
             <label htmlFor="email">email</label>

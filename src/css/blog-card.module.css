@@ -7,11 +7,14 @@
 }
 
 .img-container {
+  /* width: 300px; */
   position: relative;
   background: var(--primaryColor);
   transition: var(--mainTransition);
 }
 .img {
+  height: 300px;
+
   transition: var(--mainTransition);
 }
 .img-container:hover .img {

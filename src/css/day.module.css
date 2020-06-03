@@ -1,5 +1,15 @@
 .day {
   margin: 2rem 0;
+  /* transition: all 0.3s linear; */
+  transition: max-height 0.5s linear;
+
+  max-height: 40px;
+  overflow: hidden;
+}
+
+.show-info {
+  max-height: 500px;
+  /* transition: max-height 1s ease-in; */
 }
 .day h4 {
   display: flex;
@@ -18,8 +28,9 @@
 }
 .day p {
   line-height: 2;
-  transition: var(--mainTransition);
+  /* transition: all 3s linear; */
 }
+
 @media screen and (min-width: 992px) {
   .day h4 {
     width: 400px;

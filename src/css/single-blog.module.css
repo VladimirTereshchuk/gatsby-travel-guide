@@ -10,8 +10,16 @@
   text-transform: capitalize;
 }
 .post {
+  /* border: 1px solid red; */
+
   margin: 2rem 0;
+  float: right;
 }
 .post img {
+  /* border: 1px solid red; */
   max-width: 70vw;
+  /* margin: auto;
+  display: block; */
+  float: left;
+  margin-right: 1rem;
 }
