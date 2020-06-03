@@ -14,7 +14,7 @@ export default function Home({ data }) {
       <Layout>
         <StyledHero home="true" img={data.defaultBcg.childImageSharp.fluid}>
           <Banner
-            title="continue exploring"
+            title="Discover Unknown Lands"
             info="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque, voluptatibus."
           >
             <AniLink fade to="/tours" className="btn-white">
